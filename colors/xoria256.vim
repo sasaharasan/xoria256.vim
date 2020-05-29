@@ -36,20 +36,20 @@ let colors_name = "xoria256"
 "}}}
 " Colours {{{1
 "" General {{{2
-hi Normal       ctermfg=252 guifg=#d0d0d0 ctermbg=234 guibg=#1c1c1c cterm=none gui=none
+hi Normal       ctermfg=15  guifg=#ffffff ctermbg=0   guibg=#000000 cterm=none gui=none
 hi Cursor                                 ctermbg=214 guibg=#ffaf00
 hi CursorColumn                           ctermbg=238 guibg=#444444
-hi CursorLine                             ctermbg=237 guibg=#3a3a3a cterm=none gui=none
+hi CursorLine                             ctermbg=235 guibg=#262626 cterm=none gui=none
 hi Error        ctermfg=15  guifg=#ffffff ctermbg=1   guibg=#800000
 hi ErrorMsg     ctermfg=15  guifg=#ffffff ctermbg=1   guibg=#800000
 hi FoldColumn   ctermfg=247 guifg=#9e9e9e ctermbg=233 guibg=#121212
 hi Folded       ctermfg=255 guifg=#eeeeee ctermbg=60  guibg=#5f5f87
 hi IncSearch    ctermfg=0   guifg=#000000 ctermbg=223 guibg=#ffdfaf cterm=none gui=none
-hi LineNr       ctermfg=247 guifg=#9e9e9e ctermbg=233 guibg=#121212
+hi LineNr       ctermfg=239 guifg=#4e4e4e ctermbg=0   guibg=#000000
 hi MatchParen   ctermfg=188 guifg=#dfdfdf ctermbg=68  guibg=#5f87df cterm=bold gui=bold
 " TODO
 " hi MoreMsg
-hi NonText      ctermfg=247 guifg=#9e9e9e ctermbg=233 guibg=#121212 cterm=bold gui=bold
+hi NonText      ctermfg=239 guifg=#4e4e4e ctermbg=0   guibg=#000000 cterm=bold gui=bold
 hi Pmenu        ctermfg=0   guifg=#000000 ctermbg=250 guibg=#bcbcbc
 hi PmenuSel     ctermfg=255 guifg=#eeeeee ctermbg=243 guibg=#767676
 hi PmenuSbar                              ctermbg=252 guibg=#d0d0d0
@@ -69,7 +69,7 @@ hi TabLineFill  ctermfg=fg  guifg=fg      ctermbg=237 guibg=#3a3a3a cterm=none g
 hi Title        ctermfg=225 guifg=#ffdfff
 hi Todo         ctermfg=0   guifg=#000000 ctermbg=184 guibg=#dfdf00
 hi Underlined   ctermfg=39  guifg=#00afff                           cterm=underline gui=underline
-hi VertSplit    ctermfg=237 guifg=#3a3a3a ctermbg=237 guibg=#3a3a3a cterm=none gui=none
+hi VertSplit    ctermfg=237 guifg=#3a3a3a ctermbg=0   guibg=#000000 cterm=none gui=none
 " hi VIsualNOS    ctermfg=24  guifg=#005f87 ctermbg=153 guibg=#afdfff cterm=none gui=none
 " hi Visual       ctermfg=24  guifg=#005f87 ctermbg=153 guibg=#afdfff
 hi Visual       ctermfg=255 guifg=#eeeeee ctermbg=96  guibg=#875f87
